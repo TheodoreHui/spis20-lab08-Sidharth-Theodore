@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+
+
+{% block title %}Convert Miles to Kilometers{% endblock %}
+
+
+
+{% block content %}
+
+
+
+<form action="/mtokm-result">
+
+  Distance in Miles:<br>
+
+  <input type="text" name="mdist" value="15.0">
+
+  <input type="submit" value="Submit">
+
+</form>
+
+
+
+{% endblock %}
